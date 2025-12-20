@@ -99,10 +99,11 @@ const Hero: React.FC = () => {
              ) : (
                  <iframe 
                     className="w-full h-full"
-                    src="https://www.youtube.com/embed/0HdDQ8OJ3Xk?autoplay=1&mute=1&rel=0" 
-                    title="Product Demo Video" 
+                    src="https://www.youtube.com/embed/0HdDQ8OJ3Xk?si=e-CfdrGRHR_-mbTU&controls=0&autoplay=1&mute=1&rel=0" 
+                    title="YouTube video player" 
                     frameBorder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    referrerPolicy="strict-origin-when-cross-origin"
                     allowFullScreen
                  ></iframe>
              )}
