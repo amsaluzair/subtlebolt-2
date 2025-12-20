@@ -83,12 +83,9 @@ const Hero: React.FC = () => {
         <div className={`relative w-full max-w-4xl mx-auto aspect-video bg-white rounded-2xl shadow-2xl shadow-slate-200 border border-slate-100 mb-16 overflow-hidden ${!isVideoPlaying ? 'group cursor-pointer transform transition-transform hover:scale-[1.01]' : ''}`}>
           {!isVideoPlaying ? (
             <div onClick={() => setIsVideoPlaying(true)} className="w-full h-full relative">
-              {/* Thumbnail / Mock UI */}
+              {/* Thumbnail */}
               <img src="/video-thumbnail.png" alt="Video thumbnail" className="absolute inset-0 w-full h-full object-cover" />
-              {/* Mock UI Elements inside video placeholder - serving as thumbnail graphic */}
-              <div className="absolute top-4 left-4 right-4 h-8 bg-white rounded-lg shadow-sm w-3/4 opacity-60"></div>
-              <div className="absolute top-16 left-4 bottom-4 w-1/4 bg-white rounded-lg shadow-sm opacity-60"></div>
-              <div className="absolute top-16 right-4 bottom-4 left-[30%] bg-white rounded-lg shadow-sm opacity-60"></div>
+
 
               <div className="absolute inset-0 flex items-center justify-center z-10">
                 <div className="w-20 h-20 bg-black text-white rounded-full flex items-center justify-center shadow-xl group-hover:scale-110 transition-transform">
