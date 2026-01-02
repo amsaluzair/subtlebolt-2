@@ -75,9 +75,7 @@ const Hero: React.FC = () => {
           How B2B Agencies Book <span className="marker-highlight">10 - 50+ Qualified Sales Calls</span> Every Month Using AI-Powered Cold Emails
         </h1>
 
-        <p className="text-xl md:text-2xl text-slate-500 font-medium max-w-2xl mx-auto mb-12">
-          Using AI-Powered Cold Email… Or You Don’t Pay A Dime.
-        </p>
+
 
         {/* Video Embed */}
         <div className={`relative w-full max-w-4xl mx-auto aspect-video bg-white rounded-2xl shadow-2xl shadow-slate-200 border border-slate-100 mb-16 overflow-hidden ${!isVideoPlaying ? 'group cursor-pointer transform transition-transform hover:scale-[1.01]' : ''}`}>
@@ -108,7 +106,7 @@ const Hero: React.FC = () => {
 
         {/* How We Automate Section */}
         <div className="mb-12">
-          <h3 className="text-sm font-bold text-slate-400 uppercase tracking-widest mb-8">How We Automate Your Outbound Revenue</h3>
+
 
           <div className="flex flex-wrap justify-center gap-6 md:gap-12 text-slate-700 font-semibold text-lg mb-8">
             <div className="flex items-center gap-2">
@@ -148,10 +146,7 @@ const Hero: React.FC = () => {
             Book Your Strategy Call
           </a>
 
-          <div className="flex items-center gap-2 text-sm text-slate-500 font-medium">
-            <div className="w-2 h-2 rounded-full bg-[#E3F677] border border-black/10"></div>
-            <span>Limited to 5 new clients per month</span>
-          </div>
+
         </div>
       </div>
     </section>
