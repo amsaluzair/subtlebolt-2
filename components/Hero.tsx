@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Floating Card Right (Calendar) */}
-      <div className="hidden lg:block absolute bottom-40 right-[10%] xl:right-[15%] z-10 float-medium">
+      <div className="hidden lg:block absolute bottom-40 right-[10%] xl:right-[15%] z-30 float-medium">
         <div className="bg-white p-5 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-slate-100 rotate-6 w-60">
           <div className="flex justify-between items-center mb-4">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Calendar</span>
@@ -65,8 +65,8 @@ const Hero: React.FC = () => {
       <div className="relative z-20 max-w-5xl mx-auto px-6 text-center">
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-[#E3F677] rounded-full px-4 py-1.5 mb-8 shadow-sm">
-          <span className="text-slate-900 text-xs font-bold tracking-wide">
-            Attention Agency Owners
+          <span className="text-slate-900 text-xs font-bold tracking-wide uppercase">
+            ATTENTION AGENCY OWNERS
           </span>
         </div>
 
@@ -94,7 +94,7 @@ const Hero: React.FC = () => {
           ) : (
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/3qJz-ixXBjQ?si=e-CfdrGRHR_-mbTU&controls=0&autoplay=1&mute=0&rel=0"
+              src="https://www.youtube.com/embed/3qJz-ixXBjQ?si=e-CfdrGRHR_-mbTU&controls=0&autoplay=1&mute=0&rel=0&vq=hd1080"
               title="YouTube video player"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
