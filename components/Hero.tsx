@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
         </p>
 
         {/* Video Embed */}
-        <div className={`relative w-full max-w-4xl mx-auto aspect-[16/10] bg-white rounded-2xl shadow-2xl shadow-slate-200 border border-slate-100 mb-16 overflow-hidden ${!isVideoPlaying ? 'group cursor-pointer transform transition-transform hover:scale-[1.01]' : ''}`}>
+        <div className={`relative w-full max-w-4xl mx-auto aspect-video bg-white rounded-2xl shadow-2xl shadow-slate-200 border border-slate-100 mb-16 overflow-hidden ${!isVideoPlaying ? 'group cursor-pointer transform transition-transform hover:scale-[1.01]' : ''}`}>
           {!isVideoPlaying ? (
             <div onClick={() => setIsVideoPlaying(true)} className="w-full h-full relative">
               {/* Thumbnail */}
