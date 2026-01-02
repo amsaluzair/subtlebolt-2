@@ -71,7 +71,7 @@ const Hero: React.FC = () => {
         </div>
 
         {/* Headlines */}
-        <h1 className="text-5xl md:text-7xl font-bold text-slate-900 tracking-tight leading-[1.1] mb-8">
+        <h1 className="text-4xl md:text-6xl font-bold text-slate-900 tracking-tight leading-[1.1] mb-8">
           How B2B Agencies Book <span className="marker-highlight">10 - 50+ Qualified Sales Calls</span> Every Month Using AI-Powered Cold Emails
         </h1>
 
