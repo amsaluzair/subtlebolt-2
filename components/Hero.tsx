@@ -44,7 +44,7 @@ const Hero: React.FC = () => {
       </div>
 
       {/* Floating Card Right (Calendar) */}
-      <div className="hidden lg:block absolute bottom-40 right-[10%] xl:right-[15%] z-30 float-medium">
+      <div className="hidden lg:block absolute bottom-10 right-[10%] xl:right-[15%] z-30 float-medium">
         <div className="bg-white p-5 rounded-2xl shadow-[0_20px_50px_rgba(0,0,0,0.1)] border border-slate-100 rotate-6 w-60">
           <div className="flex justify-between items-center mb-4">
             <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider">Calendar</span>
@@ -130,7 +130,7 @@ const Hero: React.FC = () => {
           </div>
 
           <p className="text-xl text-slate-600 max-w-3xl mx-auto leading-relaxed font-medium">
-            Just a done-for-you outbound system that fills your pipeline with decision-makers who actually want to talk.
+            A step-by-step outbound system that consistently puts real decision-makers on your calendar
           </p>
         </div>
 
