@@ -66,7 +66,7 @@ const Hero: React.FC = () => {
         {/* Badge */}
         <div className="inline-flex items-center gap-2 bg-[#E3F677] rounded-full px-4 py-1.5 mb-8 shadow-sm">
           <span className="text-slate-900 text-xs font-bold tracking-wide">
-            AI-Powered Cold Email System
+            Attention Agency Owners
           </span>
         </div>
 
